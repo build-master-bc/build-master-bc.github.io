@@ -1,0 +1,354 @@
+<!DOCTYPE html>
+<html lang="ua">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Plutka</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link rel="stylesheet" href="plutka.css">
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="index.html">BuildMaster</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown"
+                aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse justify-content-end pe-3" id="navbarNavDropdown">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="index.html">Головна</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button"
+                            data-bs-toggle="dropdown" aria-expanded="false">
+                            Види робіт </a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                            <li><a class="dropdown-item" href="#pid-rob">Підготовчі роботи</a></li>
+                            <li><a class="dropdown-item" href="#pok-pl-s">Поклейка плитки на стіни</a></li>
+                            <li><a class="dropdown-item" href="#pok-pl-pid">Поклейка плитки на підлогу</a></li>
+                            <li><a class="dropdown-item" href="#in-pl-rob">Ціни на інші плиточні роботи</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#foto-gal">Фото-галерея</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <div class="container-fluid pt-5">
+        <div class="row align-items-center text-center">
+            <div class="col-md-6"><img src="pl.png" alt=""></div>
+            <div class="col-md-6">
+                <h2>Плиточні роботи</h2>
+                <p>Секрет успішного ремонту – професійність його виконання. Досвідчені майстри
+                    зможуть покласти плитку, ціна приємно здивує економних клієнтів. Наші фахівці беруть
+                    на себе всю відповідальність, від розробки проекту до остаточної здачі об’єкту. Результат неодмінно
+                    вразить не лише красою та охайністю, а ще й надійністю.</p>
+            </div>
+        </div>
+    </div>
+    <div class="container pt-5" id="pid-rob">
+        <h2>Підготовчі роботи</h2>
+        <table class="table table-hover table-striped table-secondary">
+            <caption></caption>
+            <thead>
+                <tr>
+                    <th>Вид роботи</th>
+                    <th>Квадратура</th>
+                    <th>Ціна грн</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Вирівнювання стін гипсовими сумішами по маяках</td>
+                    <td>1м<sup>2</sup></td>
+                    <td>від 85грн</td>
+                </tr>
+                <tr>
+                    <td>Вирівнювання стін клеєвими сумішами</td>
+                    <td>1м<sup>2</sup></td>
+                    <td>від 65грн</td>
+                </tr>
+                <tr>
+                    <td>Підготовка підлоги до поклейки плитки</td>
+                    <td>1м<sup>2</sup></td>
+                    <td>від 50грн</td>
+                </tr>
+                <tr>
+                    <td>Демонтаж старої плитки</td>
+                    <td>1м<sup>2</sup></td>
+                    <td>від 45грн</td>
+                </tr>
+            </tbody>
+        </table>
+
+
+        <h2 id="pok-pl-s">Поклейка плитки на стіни</h2>
+        <table class="table table-hover table-striped table-secondary">
+            <caption></caption>
+            <thead>
+                <tr>
+                    <th>Вид роботи</th>
+                    <th>Квадратура</th>
+                    <th>Ціна грн</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Поклейка керамічної плитки</td>
+                    <td>1м<sup>2</sup></td>
+                    <td>від 250грн</td>
+                </tr>
+                <tr>
+                    <td>Поклейка керамогранітної плитки</td>
+                    <td>1м<sup>2</sup></td>
+                    <td>від 300грн</td>
+                </tr>
+                <tr>
+                    <td>Поклейка мозаїки(стандартної)</td>
+                    <td>1м<sup>2</sup></td>
+                    <td>від 250грн</td>
+                </tr>
+                <tr>
+                    <td>Поклейка мозаїки(набірної)</td>
+                    <td>1м<sup>2</sup></td>
+                    <td>від 1400грн</td>
+                </tr>
+                <tr>
+                    <td>Поклейка ексклюзивної плитки(Соти, Панно ітд)</td>
+                    <td>1м<sup>2</sup></td>
+                    <td>від 320грн</td>
+                </tr>
+                <tr>
+                    <td>Поклейка декоративної плитки</td>
+                    <td>1м<sup>2</sup></td>
+                    <td>від 250грн</td>
+                </tr>
+            </tbody>
+        </table>
+
+
+        <h2 id="pok-pl-pid">Поклейка плитки на підлогу</h2>
+        <table class="table table-hover table-striped table-secondary">
+            <caption></caption>
+            <thead>
+                <tr>
+                    <th>Вид роботи</th>
+                    <th>Квадратура</th>
+                    <th>Ціна грн</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Поклейка керамічної плитки</td>
+                    <td>1м<sup>2</sup></td>
+                    <td>від 220грн</td>
+                </tr>
+                <tr>
+                    <td>Поклейка керамогранітної плитки</td>
+                    <td>1м<sup>2</sup></td>
+                    <td>від 260грн</td>
+                </tr>
+                <tr>
+                    <td>Поклейка мрамора або граніта</td>
+                    <td>1м<sup>2</sup></td>
+                    <td>від 300грн</td>
+                </tr>
+                <tr>
+                    <td>Поклейка художньої плитки</td>
+                    <td>1м<sup>2</sup></td>
+                    <td>від 400грн</td>
+                </tr>
+                <tr>
+                    <td>Поклейка ексклюзивної плитки(Соти, Панно ітд)</td>
+                    <td>1м<sup>2</sup></td>
+                    <td>від 300грн</td>
+                </tr>
+                <tr>
+                    <td>Поклейка на прямі (ступеней)</td>
+                    <td>1м<sup>2</sup></td>
+                    <td>від 310грн</td>
+                </tr>
+            </tbody>
+        </table>
+
+
+
+        <h2 id="in-pl-rob">Ціни на інші плиточні роботи</h2>
+        <table class="table table-hover table-striped table-secondary">
+            <caption></caption>
+            <thead>
+                <tr>
+                    <th>Вид роботи</th>
+                    <th>Квадратура</th>
+                    <th>Ціна грн</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Свердління отворів в плитці</td>
+                    <td>1шт</td>
+                    <td>65грн</td>
+                </tr>
+                <tr>
+                    <td>Підрізка торців пі кут 45<sup>0</sup></td>
+                    <td>1м пог</td>
+                    <td>від 140грн</td>
+                </tr>
+                <tr>
+                    <td>Пряма різка плитки</td>
+                    <td>1м пог</td>
+                    <td>від 120грн</td>
+                </tr>
+                <tr>
+                    <td>Влаштування люка ревізії</td>
+                    <td>1шт</td>
+                    <td>від 90грн</td>
+                </tr>
+                <tr>
+                    <td>Встановлення вентиляційних ґрат</td>
+                    <td>1шт</td>
+                    <td>від 450грн</td>
+                </tr>
+                <tr>
+                    <td>Затирання швів плитки</td>
+                    <td>1м<sup>2</sup></td>
+                    <td>від 80грн</td>
+                </tr>
+                <tr>
+                    <td>Затирання швів плитки під цеглу або камінь</td>
+                    <td>1м<sup>2</sup></td>
+                    <td>від 40грн</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+
+
+
+
+
+
+
+
+
+
+    <div class="container-fluid foto-galerea">
+        <div class="row">
+            <div class="col-12">
+                <h2 id="foto-gal">Фото-галерея</h2>
+            </div>
+        </div>
+        <div class="long-slider">
+            <div class="arrow-left">
+                <p> &lsaquo;</p>
+            </div>
+            <div class="arrow-right">
+                <p>&rsaquo;</p>
+            </div>
+            <div class="item-wrap">
+                <div class="slider-item">
+                    <div class="pdoduct-card">
+
+                        <img src="IMG_20220604_164335.jpg" alt="" srcset="">
+
+                    </div>
+                    <div class="pdoduct-card">
+                        <img src="plutka_1.jpg" alt="">
+                    </div>
+                    <div class="pdoduct-card">
+                        <img src="plutka_2.jpg" alt="">
+                    </div>
+                    <div class="pdoduct-card">
+                        <img src="plutka_3.jpg" alt="">
+                    </div>
+                    <div class="pdoduct-card">
+
+                        <img src="IMG_20220604_164335.jpg" alt="" srcset="">
+                    </div>
+                    <div class="pdoduct-card">
+
+                    </div>
+                    <div class="pdoduct-card">
+
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+    </div>
+
+    </div>
+
+
+
+
+
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+        crossorigin="anonymous"></script>
+    <script>
+        let toLeft = document.querySelector('.arrow-left');
+        let toRight = document.querySelector('.arrow-right');
+        let slider = document.querySelector('.item-wrap');
+
+
+        // let sliderItem = document.querySelectorAll('.slider-item')
+
+
+        toLeft.addEventListener('click', function () {
+            if (slider.scrollLeft <= 0) {
+                slider.scrollLeft += slider.scrollWidth;
+            }
+            else {
+                slider.scrollLeft -= 300;//на скільки зсовувати
+            }
+
+        })
+
+
+
+        toRight.addEventListener('click', function () {
+            let maxScrollRight = slider.scrollWidth - slider.clientWidth;
+            if (slider.scrollLeft >= maxScrollRight - 1) {
+                slider.scrollLeft -= slider.scrollWidth;
+            }
+            else {
+                slider.scrollLeft += 300;//на скільки зсовувати
+            }
+        })
+
+
+
+
+
+        let imgFullShow = document.querySelectorAll('.pdoduct-card img');
+
+        for (let i = 0; i < imgFullShow.length; i++) {
+            imgFullShow[i].addEventListener('click', function () {//dblclick подвійний клік, click одинарний клік
+                let srcImg = this.src;
+                let newDiv = document.createElement('div');
+                newDiv.classList.add('img-galery');
+                newDiv.innerHTML = "<img class = 'img-full-show' src = ' " + srcImg + "'>";
+                document.body.prepend(newDiv);
+                newDiv.onclick = () => {
+                    newDiv.remove();
+                }
+            })
+        }
+
+    </script>
+</body>
+
+</html>
